@@ -1,0 +1,341 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Josefin+Sans:wght@200&family=Montserrat:ital,wght@0,100;0,200;0,500;1,500&family=Mukta&family=Open+Sans:ital@1&family=Roboto:wght@100;300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+body{
+    background-color: #0e0d0d;
+    color: #ffffff;
+}
+main{
+    width: 70vw;
+    margin: 0 auto;
+}
+/* --------------------navBar-style---------------------- */
+
+nav{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.optionList{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.optionList li{
+    margin-left: 50px;
+    font-weight: 600;
+}
+.optionList li button{
+    color: #ffffff;
+    border: none;
+    background-color: #292828;
+    font-weight: 500;
+    padding: 18px 45px;
+    border-radius: 5px;
+}
+/* --------------------navBar-style---------------------- */
+
+/* ----------------------headPhoneSection-style-------------- */
+.headPhoneSection{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.headPhoneImg{
+    width: 280px;
+    position: relative;
+    top: -200px;
+}
+.onEarPng{
+    margin-top: 40px;
+}
+.onEar{
+    margin-bottom: 15px;
+    margin-left: 40px;
+}
+.proName{
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+.overview{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.para{
+    color: #bfbfbf;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+.addToBagSection{
+    width: 285px;
+    display: flex;
+    align-items: center;
+    background-color: #292828;
+    padding: 15px 30px 15px 30px;
+    border-radius: 8px;
+}
+
+.addToBagSection img{
+    margin-right: 20px;
+}
+.addToBagSection p{
+    margin-right: 20px;
+}
+.model{
+    font-weight: 700;
+}
+
+
+
+/* ----------------------headPhoneSection-style-------------- */
+
+/* ----------------------.logoSection-style------------------- */
+.logoSection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 150px;   
+}
+/* ----------------------.logoSection-style------------------- */
+
+/* ----------------------space-style-------------------------- */
+.space{
+    margin-bottom: 100px;
+}
+.spaceImg{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+.textAndImg{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.featureName{
+   font-size: 15px;
+   font-weight: 600;
+   color: #d8d8d8; 
+}
+.subfeatureName{
+    font-size: x-small;
+    font-weight: 400;
+    margin-top: 7px;
+    color: rgb(194, 194, 194);
+}
+.card{
+    margin-bottom: 20px;
+}
+
+.connection{
+    margin-left: 100px;
+}
+.battery{
+    margin-left: 70px;
+}
+.load{
+    margin-left: 70px;
+}
+.mice{
+    margin-left: 95px;
+}
+/* ----------------------space-style-------------------------- */
+
+/* -----------------case-style------------------------ */
+.case{
+    margin-bottom: 100px;
+}
+.caselogo{
+    display: block;
+    margin: 0 auto; 
+    margin-bottom: 50px; 
+}
+
+.caseAndText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caseImg{
+    margin-right: 40px;
+}
+.text{
+    margin-left: 40px;
+}
+.textPara{
+    color: #bdbdbd;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    color:#ffffff;
+    background-color: #292828;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+.btn img{
+    margin-right: 10px;
+}
+
+/* -----------------case-style------------------------ */
+
+/* ----------------------buySection-style------------------- */
+.buySection{
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 60px;
+    margin-bottom: 100px;
+}
+.mainText{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.subText{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.buyBtn{
+    background-color: #0e0d0d;
+    color: #c1c1c1;
+    display: flex;
+    align-items: center;
+    padding: 13px 25px;
+    border-radius: 10px;
+}
+.buyBtn img{
+    margin-right: 10px;
+}
+/* ----------------------buySection-style------------------- */
+/* ----------------------choseYourStyle-style------------------- */
+.choseYourStyle{
+    margin-bottom: 130px;
+    /* margin-top: 50px; */
+}
+.productLogo{
+    display: block;
+    margin: 0 auto 80px auto;
+}
+
+.styleCards{
+    display: grid;
+    grid-template-columns: repeat(3,250px);
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    gap: 50px;
+}
+.headphoneImg{
+    width: 90px;
+    position: relative;
+    top: -40px;
+}
+.card1{
+    background-color: #1f1f1f;
+    padding: 0px 15px 15px 15px;
+    border-radius: 10px;
+
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    /* background-color: #1f1f1f; */
+    /* height: 200px; */
+}
+
+
+.shoppingBag{
+    background-color: black;
+    padding: 5px 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+/* ----------------------choseYourStyle-style------------------- */
+
+/* -------------------foote-style------------------------------ */
+footer{
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer table{
+    text-align: left;
+    border-spacing: 60px 15px;
+}
+
+table tbody tr td{
+    font-size: small;
+    font-weight: 400;
+    color: #cbcbcb;
+}
+
+.formDiv{
+    background-color: #1d1d1d;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.formDiv input{
+    background-color: #1d1d1d;
+    border: none;
+}
+.inputBtn{
+   background-color: rgb(1, 1, 1);
+   border: none;
+   color: #ffffff;
+   padding: 15px 10px;
+   border-radius: 5px;
+   vertical-align:middle;
+
+}
+.inputBtn img{
+    margin-right: 10px;
+}
+
+.socialIcon{
+    margin-top: 20px;
+}
+.socialIcon img{
+    margin-right: 10px;
+}
+.beatsLogo{
+    position: relative;
+    top: -50px;
+}
+.upArrow{
+    position: relative;
+    right:-1255px;
+    bottom:170px;
+}
+/* -------------------foote-style------------------------------ */

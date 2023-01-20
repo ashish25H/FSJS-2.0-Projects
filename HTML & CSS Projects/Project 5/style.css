@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Montserrat:ital,wght@0,500;1,500&family=Mukta&family=Open+Sans:ital@1&family=Roboto:wght@100;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+body{
+    height: 100vh;
+    padding: 2% 5%;
+}
+
+header{
+    height: 15vh;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+ul li:first-child{
+    color: #41D399;
+    font-weight: 600;
+}
+
+/* ---------------------main--------------------------- */
+
+.mainSection{
+    height: 80vh;
+    background-image: url("./images/stethoscope.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+
+.leftSection{
+    width: 49%;
+    /* flex-basis: 60%; */
+   
+}
+
+.topAngle{
+    position: absolute;
+    top: 20%;
+}
+
+.leftSection h1{
+    font-size: 70px;
+    width: 100%;
+    font-weight: 800;
+    /* line-break:anywhere; */
+}
+.leftSection p{
+    color: #808080;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.bottomAngle{
+    position: absolute;
+    right: 57%;
+}
+button{
+    padding: 20px 30px;
+    border: none;
+    background-color: #41D399;
+    color: white;
+    border-radius: 30px;
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+.mouse{
+    /* position: absolute;
+    right: 50%;
+    margin-top: 40px; */
+    position: absolute;
+    right: 45%;
+    margin-top: 40px;
+    top: 85%;
+}
+
+.rightSection{
+   
+}
+
+.size1{
+    width: 400px;
+    position: absolute;
+    right: 100px;
+    top: 250px;
+    z-index: -2;
+}
+.size2{
+    position: absolute;
+    right: 90px;
+    top: 280px;
+    width: 350px;
+    z-index: -1;
+}
+.size3{
+    width: 500px;
+    position: absolute;
+    top: 74px;
+    right: 60px;
+
+}

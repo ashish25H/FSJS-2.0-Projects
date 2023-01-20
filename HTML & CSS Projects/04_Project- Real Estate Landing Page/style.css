@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Josefin+Sans:wght@200&family=Montserrat:ital,wght@0,200;0,500;1,500&family=Mukta&family=Open+Sans:ital@1&family=Roboto:wght@100;300&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+  
+/* -------------------------------header-style----------------------- */
+header{
+    padding: 20px 100px;
+    height: 100vh;
+    color: #ffffff;
+    background-image: url("./Photos/mainBackground.png");
+    background-size: 100% 100%;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBar ul{
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+.navBar ul li{
+    padding-left: 40px;
+}
+
+.horLine{
+    border-bottom: 3px solid #ffffff5e;
+    border-radius: 3px;
+    margin: 20px 0 120px 0;
+}
+
+.navHeading{
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 45px;
+}
+.navDes{
+    font-size: 20px;
+    /* font-weight: 300; */
+    color: rgb(191, 191, 191);
+    margin-bottom: 45px;
+}
+
+.navBtn{
+    border: none;
+    color: #ffffff;
+    padding: 20px 40px;
+    background-color: #6663E9;
+    border-radius: 28px;
+}
+/* -------------------------------header-style----------------------- */
+
+/* ---------------------------logoLine-style---------------------- */
+.logoLine{
+    width: 90vw;
+    margin: 0 auto;
+    padding: 50px 20px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: -70px;
+    left: 65px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* ---------------------------logoLine-style---------------------- */
+
+
+/* ---------------------------------realEstateCards-style---------------- */
+.realEstateCards{
+    padding: 150px 50px;
+    text-align: center;
+}
+
+.realEstateCardsHeading{
+    font-size: 50px;
+    font-weight: 800;
+    color: #323131;
+    margin-bottom: 70px;
+}
+
+.houseCards{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    row-gap: 50px;
+}
+
+.houseCards .card img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.priceDiv{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 5px 5px;
+    border-radius: 15px;
+    position: relative;
+    top: -45px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.nameAndPrice{
+    margin: 10px 15px 10px 5px;
+}
+.name{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.price{
+    color: #6663E9;
+    font-weight: 700;
+}
+.cardBtn{
+    border: none;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 15px;
+    background-color: #6663E9;
+}
+
+.card1{
+    position: relative;
+    top: -40px;
+}
+.card2{
+    position: relative;
+    top: -20px;
+}
+.card6{
+    position: relative;
+    top: -50px;
+}
+.card5{
+    position: relative;
+    top: -30px;
+}
+.card7{
+    position: relative;
+    top: -50px;
+}
+.card8{
+    position: relative;
+    top: -30px;
+}
+
+
+
+/* ---------------------------------realEstateCards-style---------------- */
+
+/* -----------------------modernSec-style-------------------- */
+.modernSec{
+    display: flex;
+    align-items: center;
+    padding: 30px 0 60px 0;
+}
+
+.bgImg{
+    width: 500px;
+}
+
+.houseImg{
+    width: 350px;
+    height: 350px;
+    border-radius: 30px;
+    position: absolute;
+    top: 2495px;
+    left: 95px;
+}
+
+.textDiv{
+    margin-left: 150px;
+    
+}
+.heading{
+    font-size: 55px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.para{
+    margin-bottom: 30px;
+    color: gray;
+}
+.textBtn{
+    border: none;
+    color: #ffffff;
+    padding: 20px 35px;
+    background-color: #6663E9;
+    border-radius: 30px;
+}
+/* -----------------------modernSec-style-------------------- */
+/* -----------------------uniqueHouse-style------------------- */
+.uniqueHouse{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 60px 0;
+}
+.bgImg2{
+    width: 500px;
+    position: relative;
+    right: -0;
+}
+.houseImg2{
+   width: 350px;
+    height: 350px;
+    border-radius: 30px; 
+    position: absolute;
+    right: 95px;
+    top: 3030px;
+}
+.textDiv2{
+    margin-right: 150px;
+}
+
+/* -----------------------uniqueHouse-style------------------- */
+/* -------------------------newsLetter-style------------------ */
+.newsLetter{
+    margin: 50px;
+    background-color: #6663E9;
+    padding: 60px 100px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 40px;
+}
+.newsLetterHeading{
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.newsLetterDes{
+    color: #dadada;
+    margin-bottom: 50px;
+}
+.emailCont{
+    display: flex;
+    align-items: center;
+    background-color: #5351ba;
+    padding: 10px 70px 10px 10px;
+    border-radius: 25px;
+}
+.emailCont input{
+    padding-right: 40px;
+    border: none;
+    color: #6e6e6e;
+    background-color: #5351ba;
+    padding-left: 20px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submitBtn{
+    margin-left: 30px;
+    padding: 15px 40px;
+    color: #6663E9;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 30px;
+}
+/* -------------------------newsLetter-style------------------ */
+/* -------------------------footer-style----------------------- */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px 90px;
+}
+table{
+    text-align: left;
+    border-spacing: 150px 30px;
+}
+.iconDiv{
+    margin-left: 70px;
+}
+.iconDiv img{
+    margin-bottom: 20px;
+}
+.iconDiv p{
+    line-height:30px;
+}
+.socialIcon img{
+    margin: 0 20px 20px 0;
+    width: 40px;
+}
+/* -------------------------footer-style----------------------- */

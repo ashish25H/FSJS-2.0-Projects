@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Montserrat:ital,wght@0,500;1,500&family=Mukta&family=Open+Sans:ital@1&family=Roboto:wght@100;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+body{
+    padding: 2% 10%;
+    background-color: #e2dfdf;
+}
+
+header{
+    height: 15%;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+/* -----------------------main Section------------------------- */
+
+.mainSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftSection h1{
+ font-size: 60px;
+ font-weight: 600;
+ margin-right: 50px;
+ margin-bottom: 30px;
+}
+
+.leftSection p{
+    color: gray;
+    margin-bottom: 30px;
+}
+
+button{
+    padding: 10px 30px;
+    background-color: #3B855B;
+    color: white;
+    border: none;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.rightSection{
+    width: 50%;
+    margin-top: 50px;
+}
+.topImg img{
+  width: 250px;
+  margin: 0 10px 10px 0;
+}
+
+.bottomImg img{
+    width: 510px;
+
+}

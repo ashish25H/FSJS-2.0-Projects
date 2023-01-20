@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Josefin+Sans:wght@200&family=Montserrat:ital,wght@0,100;0,500;1,500&family=Mukta&family=Open+Sans:ital@1&family=Roboto:wght@100;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+.width{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.bgImgSection{
+    background-image: linear-gradient(to bottom , #ffffff,#eff2f7);
+    clip-path: polygon(50% 0%, 100% 0, 100% 89%, 0 100%, 0 0);}
+
+
+/* -------------------------------header-style----------------------- */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+.navList{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.navList li{
+    margin-left: 30px;
+    font-weight: 500;
+}
+.navList li button{
+    border: 2px solid #722ED1;
+    background-color: #ffffff;
+    color: #722ED1;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.navList li button:hover{
+    border: 2px solid #ffffff;
+    background-color: #722ED1;
+    color: #ffffff;
+    
+}
+/* -------------------------------header-style----------------------- */
+/* ----------------------------imgAndTextSection-style--------------- */
+.imgAndTextSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+}
+.littleStars{
+    display: flex;
+    align-items: center;
+    background-color: #ebe8ee;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #722ED1;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.littleStars img{
+    margin-right: 10px;
+}
+.underLineText{
+    /* text-decoration: underline; */
+    border-bottom: 1px solid #722ED1;
+}
+.largeText{
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.subText{
+    color: gray;
+    margin-bottom: 30px;
+}
+.buttons button{
+    border: 2px solid #722ED1;
+    color: #722ED1;
+    padding: 15px 35px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    font-weight: 600;
+    margin-right: 20px;
+    margin-bottom: 90px;
+}
+.buttons button:hover{
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    background-color: #722ED1;
+
+}
+/* ----------------------------imgAndTextSection-style--------------- */
+
+/* ---------------------whyQubly-style--------------------------- */
+.whyQubly{
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+.eyeImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#ebe8ee ;
+    width: fit-content;
+    margin: 0 auto 40px auto;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.eyeImg p{
+    color: #722ED1;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.textPara{
+    text-align: center;
+
+}
+.mainHeading{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.subPara{
+    color: gray;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.cardSection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card{
+    text-align: center;
+}
+.card img{
+    margin-bottom: 15px;
+}
+.cardHeading{
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.card1{
+    margin-right: 10px;
+}
+.card2{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.card3{
+    margin-left: 10px;
+}
+
+.para{
+    font-size: 15px;
+    color: gray;
+}
+
+
+/* ---------------------whyQubly-style--------------------------- */
+/* --------------------------groupImgDiv-style--------------------- */
+.groupImgDiv{
+    margin-bottom: 100px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.forPro{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+     background-color: #ebe8ee;
+     width: fit-content;
+     border-radius: 20px;
+     margin-bottom: 30px;
+}
+.forPro p{
+    color: #722ED1;
+    font-weight: 600;
+    margin-left: 10px;
+   
+}
+.proHeading{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.proPara{
+    color: gray;
+    font-weight: 500;
+    line-height: 25px;
+}
+/* --------------------------groupImgDiv-style--------------------- */
+/* ---------------------------groupImg2-style---------------------- */
+.groupImg2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.engHeading{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+/* ---------------------------groupImg2-style---------------------- */
+/* -----------------------------profilesection-style-------------- */
+.profilesection{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.profileText{
+    font-size: 23px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+.imgDiv img{
+    margin-bottom: 20px;
+}
+.imgDiv p{
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.imgDiv{
+    margin-bottom: 30px;
+}
+
+.line{
+    border-bottom: 3px solid #8080806e;
+    margin-bottom: 30px;
+}
+.logoList{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bgImg{
+    background-image: linear-gradient(to bottom , #fbf7f7, #ddedf7);
+    clip-path: polygon(0 8%, 100% 0%, 100% 83%, 0 95%);}
+/* -----------------------------profilesection-style-------------- */
+/* ---------------------------formSection-style-------------------- */
+.formSection{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-bottom: 100px;
+    margin-top: 120px;
+} 
+.form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.formDiv{
+    padding: 20px 20px;
+    background-color: #fafafa;
+    text-align: center;
+    border-radius: 10px;
+}
+.form input{
+    padding: 15px 190px 15px 20px;
+    margin-bottom: 15px;
+    border: 2px solid #c8c8c8;
+    border-radius: 8px;
+}
+.form h1{
+    margin-bottom: 15px;
+}
+.form button{
+    background-color: #722ED1;
+    color: #ffffff;
+    border: none;
+    padding: 16px ;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+.or{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.formDiv img{
+    margin-bottom: 10px;
+}
+.textDiv{
+    margin-right: 60px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.formHeading{
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+.trust{
+    color: #999999;
+    margin-bottom: 50px;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+}
+.logoDiv1{
+    margin-bottom: 80px;
+}
+/* ---------------------------formSection-style-------------------- */
+/* ---------------------footer-style------------------------- */
+.bgColor{
+    background-color: #fbfafb;
+    padding: 70px 0 100px 0;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoSection img{
+    margin-bottom: 30px;
+}
+.logoSection p{
+    font-size: small;
+    line-height: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.socialMedialogo img{
+    margin-right: 10px;
+}
+table{
+    text-align: left;
+    border-spacing: 30px 10px;
+}
+
+tbody tr td{
+    font-size: 15px;
+    font-weight: 500;
+}
+.inputBtn{
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 3px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.inputBtn input{
+    border: none;
+    
+}
+/* ---------------------footer-style------------------------- */

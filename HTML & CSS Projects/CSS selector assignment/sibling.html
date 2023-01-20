@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .sibling+li{
+            color: rgb(226, 98, 43);
+        } */
+
+        .sibling~li{
+            color: #E07C24;
+        }
+
+        .para+p{
+            color: rgb(68, 255, 0);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li class="sibling">test</li>
+            <li>test</li>
+            <li>test</li>
+        </ul>
+    </div>
+
+    <div>
+        <p  class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quia ipsum rem. Dolorem maxime modi numquam libero distinctio incidunt ipsam suscipit quisquam veniam nobis! Quia, vitae ipsam? Doloremque, eaque assumenda.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, doloremque?</p>
+    </div>
+</body>
+</html>

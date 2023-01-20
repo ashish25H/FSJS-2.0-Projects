@@ -1,0 +1,68 @@
+body {
+  background-color: #ef5354;
+}
+body .clockContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 18%;
+}
+body .clockContainer .time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .clockContainer .time h1 p {
+  font-size: 100px;
+}
+body .inputArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+body .inputArea input {
+  margin-right: 10px;
+  border: none;
+  background-color: #ef5354;
+}
+body .inputArea input::placeholder {
+  color: white;
+}
+body .total {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+body .total .stopWatch .time {
+  display: flex;
+}
+body .total .stopWatch .time h1 p {
+  font-size: 70px;
+}
+body .total .button {
+  display: flex;
+}
+body .total .button p {
+  margin: 10px;
+  font-size: 20px;
+}
+body .total .button p:hover {
+  color: greenyellow;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+  .time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .time h1 p {
+    font-size: 30px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

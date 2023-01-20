@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Josefin+Sans:wght@200&family=Montserrat:ital,wght@0,200;0,500;1,100;1,500&family=Mukta&family=Open+Sans:ital@1&family=Roboto:wght@100;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+/* ---------------------------header-style---------------------- */
+header{
+    height: 100vh;
+    background-image: url("./Assets/Photos/futuristic-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #ffffff;
+    padding: 30px 50px 50px 90px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+}
+nav li{
+    margin: 0 30px 0 0;
+}
+
+nav li:first-child{
+    margin-right: 100px;
+}
+
+.navList{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navButton2{
+    border: none;
+    color: #ffffff;
+    background-color: #e56129;
+    padding: 10px 20px;
+}
+.navButton1{
+    border: none;
+    color: #ffffff;
+    background-color: rgba(255, 132, 0, 0);
+    padding: 10px 20px;
+}
+
+.navDes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.navDes div h1{
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.navDes>div>p{
+    color: gray;
+    margin-bottom: 40px;
+}
+
+.DesButton1{
+    background-color: #e5612900;
+    padding: 20px 40px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    font-size: large;
+    margin-right: 10px;
+}
+.DesButton2{
+    background-color: #e5612900;
+    padding: 20px 40px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    font-size: large;
+    margin-left: 10px;
+}
+
+.DesButton:hover{
+    border: none;
+    background-color:#e56129;
+    cursor: pointer;
+}
+
+.playBtn img{
+    width: 100px;
+}
+
+.playBtn{
+    position: absolute;
+    top: 320px;
+    right: 300px;
+}
+.playBtntext{
+   position: absolute;
+   top: 550px; 
+   right: 270px;
+}
+
+.playBtnDes{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 200;
+}
+/* .playBtntext img{
+    margin-left: 150px;
+    width: 50px;
+} */
+.playBtntextImg{
+     margin-left: 150px;
+    width: 50px;
+}
+/* ---------------------------header-style---------------------- */
+
+/* ------------------------------ gameDescription-style-----------------*/
+.gameDescription{
+    padding: 100px 90px;
+}
+.gameDescriptionText{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.fourCards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imgClass img{
+    width: 300px;
+    height: 250px;
+    z-index: 1;
+}
+
+.imgDes{
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    position: relative;
+    bottom: 86px;
+    color: #ffffff;
+}
+
+.imgDesBtn{
+    padding: 10px 18px;
+    border: none;
+    background-color: #e56129;
+    color: #ffffff;
+}
+
+.gameName{
+    padding-bottom: 3px;
+}
+.catagory{
+    padding-bottom: 5px;
+    font-size: small;
+    color: rgb(181, 179, 179);
+}
+
+.card1{
+    margin-right: 20px;
+}
+.card2{
+    margin: 0 20px;
+}
+.card3{
+    margin: 0 20px;
+}
+.card4{
+    margin-left: 20px;
+}
+
+.card1 .imgDes{
+    background-color: #4d4c4ce2;
+}
+.card2 .imgDes{
+    background-color: #4f4f85de;
+}
+.card3 .imgDes{
+    background-color: #2d2d2dcb;
+}
+.card4 .imgDes{
+    background-color: #4d4c4cee;
+}
+/* ------------------------------ gameDescription-style-----------------*/
+
+/* --------------------------warGameSection-style----------------------- */
+.warGameSection{
+    display: flex;
+    margin: 100px 0;
+}
+.warGameImg img{
+    width: 600px;
+}
+
+.warText{
+    margin-left: 100px;
+}
+
+.warTextHeading{
+    font-size: 40px;
+    font-weight: 1000;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.warTextDes{
+    font-size: small;
+    color: gray;
+    margin-bottom: 20px;
+}
+.warGameBtn1{
+    border: none;
+    color: #ffffff;
+    background-color: #e56129;
+    padding: 15px 30px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.warGameBtn2{
+    border: 1px solid #e56129;
+    color:#e56129;
+    background-color: #ffffff;
+    padding: 15px 30px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+/* --------------------------warGameSection-style----------------------- */
+
+/* ------------------weekRecommend-style--------------------------- */
+.weekRecommend{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.weekRecommendHeading{
+    font-size: 50px;
+    font-weight: 700;
+}
+.arrowLeft{
+    /* width: 40px; */
+    background-color: #e9c2b1; 
+    padding: 15px 20px;
+    margin-right: 5px;
+}
+
+.arrowRight{
+    width: 70px;
+    background-color: #e56129;
+    padding: 16px 20px;
+    margin-left: 5px;
+}
+/* ------------------weekRecommend-style--------------------------- */
+
+/* --------------------------recommendGameCards-style-------------- */
+.recommendGameCards{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 60px;
+}
+
+.reImg{
+    width: 300px;
+    height: 300px;
+}
+
+.recommendCard1{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.recommendCard2{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+
+}
+.recommendCard3{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-left: -23px;
+}
+.recommendCard4{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+
+}
+
+.reText{
+    margin-left: 20px;
+}
+.reText h1{
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.reText .cat{
+    color: #e56129;
+    font-size: small;
+    margin: 30px 0;
+}
+
+.reText .para{
+    color: gray;
+    font-size: small;
+    margin: 20px 0;
+}
+
+.reText button{
+    border: none;
+    color: #ffffff;
+    background-color: #e56129;
+    padding: 18px 38px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+/* --------------------------recommendGameCards-style-------------- */
+/* ---------------------popularGameSection-style----------------- */
+.popularGameSection{
+    background-color: black;
+    color: #ffffff;
+    padding: 60px 80px 150px 80px;
+}
+.popHeading{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+.Rectangle17ImgCont{
+    display: flex;
+    
+}
+.Rectangle17ImgCont p{
+    color: gray;
+    font-weight: 400;
+    margin: 40px 0 0 60px;
+}
+
+.Rectangle17ImgCont img{
+    width: 500px;
+}
+
+.img2 img{
+    width: 350px;
+}
+.img3 img{
+    width: 300px;
+}
+.img2{
+    position: absolute;
+    top: 3150px;
+    left: 650px;
+}
+.img3{
+    position: absolute;
+    top: 3400px;
+    left: 1050px;
+}
+/* ---------------------popularGameSection-style----------------- */
+/* ---------------------ufoSection-style---------------------- */
+.ufoSection{
+    padding: 80px 0;
+    color: #ffffff;
+    text-align: center;
+    background-image: url("./Assets/Photos/Rectangle\ 606.png");
+    background-size: 100% 100%;
+     background-color: rgba(0, 0, 0, 0.855);
+}
+.ufoSection h1{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.ufoSection p{
+    font-size: 15px;
+    color: #b3afaf;
+    margin-bottom: 20px;
+}
+.ufoSection button{
+    border: none;
+    color: #ffffff;
+    background-color: #e56129;
+    padding: 15px 25px;
+    
+}
+/* ---------------------ufoSection-style---------------------- */
+/* --------------------footer-style-------------------------- */
+footer{
+    padding: 90px 0px;
+    color: #ffffff;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logoSection img{
+    margin-bottom: 20px;
+}
+.logoSection p{
+    color: #b8b8b8;
+    font-size: small;
+    margin-bottom: 24px;
+}
+.logoSection div img{
+   margin-right: 15px;
+}
+
+table{
+    text-align: left;
+    border-spacing: 100px 20px;
+   
+}
+table tbody tr td{
+    color: #a9a8a8;
+    font-weight: 400;
+}
+/* --------------------footer-style-------------------------- */
